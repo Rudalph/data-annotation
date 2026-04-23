@@ -4,20 +4,20 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const team = [
   {
-    name: "John Doe",
-    role: "Frontend Developer",
-    image: "https://i.pravatar.cc/300?img=12",
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
-    portfolio: "https://portfolio.com",
+    name: "Rudalph Gonsalves",
+    role: "Software Engineer",
+    image: "https://medi-sense.vercel.app/Rudalph_Image.jpg",
+    linkedin: "https://www.linkedin.com/in/rudalphgonsalves/",
+    github: "https://github.com/Rudalph",
+    portfolio: "https://rudalph.vercel.app/",
   },
   {
-    name: "Jane Smith",
-    role: "Backend Engineer",
-    image: "https://i.pravatar.cc/300?img=32",
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
-    portfolio: "https://portfolio.com",
+    name: "Shruti Patil",
+    role: "Software Engineer",
+    image: "https://medi-sense.vercel.app/Shruti_Image.jpg",
+    linkedin: "https://www.linkedin.com/in/shrutipatil20/",
+    github: "https://github.com/iturhs20",
+    portfolio: "https://shruti-patil.vercel.app/",
   },
 ];
 

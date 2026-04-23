@@ -1,30 +1,30 @@
 import React from "react";
-import { Zap, Palette, ShieldCheck, Headphones } from "lucide-react";
+import { Handshake, Tags, ShieldCheck, Database } from "lucide-react";
 
 const features = [
   {
-    title: "Fast Performance",
+    title: "Collaborative Annotation at Scale",
     description:
-      "Optimized solutions built for speed, smooth experience, and reliable performance across devices.",
-    icon: <Zap className="w-8 h-8 text-black-400" />,
+      "Enable multiple annotators to work on shared datasets in real time. Assign projects, track contributions, and manage labeling workflows efficiently across teams.",
+    icon: <Handshake className="w-8 h-8 text-black-400" />,
   },
   {
-    title: "Modern Design",
+    title: "Structured Labeling & Rules Engine",
     description:
-      "Beautiful, user-friendly interfaces crafted with a modern design system and clean layouts.",
-    icon: <Palette className="w-8 h-8 text-black-400" />,
+      "Define custom label categories and enforce annotation guidelines. Ensure consistency and high-quality datasets with rule-based validation and clear instructions.",
+    icon: <Tags className="w-8 h-8 text-black-400" />,
   },
   {
-    title: "Secure Platform",
+    title: "Quality Control & Disagreement Analysis",
     description:
-      "Strong security practices to help protect your data, users, and overall digital experience.",
+      "Monitor annotations per image, detect conflicts between annotators, and analyze disagreements to improve dataset reliability and model performance.",
     icon: <ShieldCheck className="w-8 h-8 text-black-400" />,
   },
   {
-    title: "24/7 Support",
+    title: "Export-Ready AI Datasets",
     description:
-      "Dedicated assistance whenever you need help, ensuring your business keeps running smoothly.",
-    icon: <Headphones className="w-8 h-8 text-black-400" />,
+      "Seamlessly export annotated data in structured formats for machine learning pipelines, enabling faster experimentation and deployment of AI models.",
+    icon: <Database className="w-8 h-8 text-black-400" />,
   },
 ];
 

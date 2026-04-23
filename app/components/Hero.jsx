@@ -7,7 +7,8 @@ export default function Hero () {
             <div className="hero bg-base-200 py-16">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
-      src="https://images.pexels.com/photos/7948038/pexels-photo-7948038.jpeg"
+      // src="https://images.pexels.com/photos/7948038/pexels-photo-7948038.jpeg"
+      src = "https://indoanalytica.com/static/images/data-science-5.gif"
       className="max-w-sm rounded-lg shadow-2xl"
     />
     <div>

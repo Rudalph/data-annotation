@@ -57,7 +57,7 @@ export default function AdminProjectsList() {
                     className="bg-base-200 rounded-2xl shadow-md p-5 border border-base-300"
                 >
                     <h2 className="text-xl font-semibold mb-2">
-                        {project.projectName || "Untitled Project"}
+                        {project.projectName || "Space Images Dataset"}
                     </h2>
 
                     <p className="text-sm text-base-content/70 mb-3 line-clamp-3">
