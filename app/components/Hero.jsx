@@ -33,9 +33,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="hero bg-base-200 py-16">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-12">
         {/* Replace your <Image> tag with this */}
-        <div className="relative w-full h-[420px] rounded-2xl overflow-hidden border border-slate-700/50 ml-32"
+        <div className="relative w-full h-[280px] sm:h-[350px] lg:h-[420px] rounded-2xl overflow-hidden border border-slate-700/50"
           style={{ background: "#0a1628" }}>
 
           {/* Grid background */}
